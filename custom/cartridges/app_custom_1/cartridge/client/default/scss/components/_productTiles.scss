@@ -1,0 +1,25 @@
+// @import '~base/components/_productTiles';
+.product-tile {
+  .custom-func {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    color: aliceblue;
+    opacity: 0;
+  }
+}
+
+.product-tile:hover {
+  .tile-info {
+    opacity: 0.5;
+  }
+  .custom-func {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  label {
+    color: black;
+  }
+}
